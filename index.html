@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Criar conta</h1>
+            <div class="form-control">
+                <label for="usuario">Usuário</label>
+                <input id="usuario" name="usuario" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="senha">Senha</label>
+                <input id="senha"name="senha" type="senha">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="senha2">Confirme a senha</label>
+                <input id="senha2"name="senha2" type="senha">
+                <div class="error"></div>
+            </div>
+            <button type="cadastrar">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
