@@ -1,6 +1,6 @@
 # formValidation
 
-[![MasterHead](https://imgur.com/n4pNpXm.gif)](https://github.com/mateusdn)
+[![MasterHead](https://imgur.com/25MrhBt.png)](https://github.com/mateusdn)
 <h2 align="center">formValidation</h2>
 
 
